@@ -1,9 +1,9 @@
 # Edge-and-Contour-Detection
 
-Edge Detection
+Edge Detection : 
 We start by loading an image using OpenCV. We then apply a Gaussian blur to smooth the image, which helps reduce noise. After that, we use the Canny edge detection algorithm to highlight the edges in the image. Finally, both the original image and the edge-detected version are displayed side by side using Matplotlib. This process helps in visualizing the structures within an image more clearly.
 
-Contour Detection
+Contour Detection :
 The code processes an image by first converting it to grayscale and then applying a threshold to turn it into a binary image. Next, it uses OpenCV's `findContours` function to detect contours in the binary image. These contours are then drawn onto the original image. The project displays four versions of the image: the original, grayscale, binary, and the one with contours, allowing us to visualize how the contours are extracted and highlighted.
 
 Canny Edge Detection Algorithm
